@@ -2,6 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
+Concepts Used:
+--------------
+1) Routing
+2) Form Validation with Form Group, Regex and Validators.
+3) WildCard
+4) Interpolation
+5) Property Binding
+6) Page Not Found
+
+Coding Technologies Used:
+-------------------------
+1) HMTL
+2) CSS
+3) Bootstrap
+4) TypeScipt
+5) AngularJS Framework to build the web-app
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
