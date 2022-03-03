@@ -19,6 +19,11 @@ Coding Technologies Used:
 4) TypeScipt
 5) AngularJS Framework to build the web-app
 
+## Note: Steps to run the Project -
+1) First, cd C:\Users\wjoel\Documents\Spotify-Web-App\spotify-app.
+2) Second, Use ng add node-modules to add the node modules files in the command prompt.
+3) After that, ng s -o --port 8200 (-> this can be written in this way also, ng serve -o (//open) --port 4345 (// port no can be any number).
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
