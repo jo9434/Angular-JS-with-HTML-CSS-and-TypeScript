@@ -1,0 +1,32 @@
+<!--p>login works!</p-->
+<body>
+    <section class="col-section">
+        <img id="col-fb" class="img-defn" [src]="img1"><p class="hide">{{facebook}}</p>
+        <img id="col-insta" class="img-defn" [src]="img2"><p class="hide">{{instagram}}</p>
+        <img id="col-tweet" class="img-defn" [src]="img3"><p class="hide">{{twitter}}</p>
+        <img id="col-yt" class="img-defn" [src]="img4"><p class="hide">{{youtube}}</p>
+        <a [routerLink]="pathHome" [routerLinkActive]="navLinkActive"><button class="return-Home"><img class="imgHome" [src]="btnHome" alt="Home Icon"></button></a>
+        <br><br>
+        <b><p class="col-text-1">to continue, login to</p></b>
+        <img [src]="appLogo" style="height: 25px; width: 25px; margin-left: 630px;" alt="Spotify Logo"><b><p class="col-text-2">{{appName}}</p></b>
+        
+        <form class="loginform">
+            <br>
+            <b><label class="col-username" for="uname">username :</label></b>
+            <br>
+            <b><input class="txt-box-1" type="text" placeholder="Enter Username" name="uname"></b>
+            <br><br>
+            <b><label class="col-password" for="pwd">password :</label></b>
+            <br>
+            <b><input class="txt-box-2" type="text" placeholder="Enter Password" name="pwd"></b>
+            <br><br>
+            <b><button class="btn-submit" value="Login">login</button></b>
+            <p class="btn-checkbox"><input type="checkbox" checked="true">remember me</p>
+
+            <hr style="margin-top: 50px; margin-left: 100px; width: 266px; border: 0; height: 2px; background-color: darkorange; ">
+            <p style="text-align: center; margin-left: 150px; clear: left; float: left; margin-top: 10px; font-family: 'Ubuntu Mono';">Don't Have an Account?</p>
+            <a href="./register.html"><input type="button" class="btn-signup" value="sign up for spotify"></a>
+        </form>
+        <p></p>
+      </section>
+</body>

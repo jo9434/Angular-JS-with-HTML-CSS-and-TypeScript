@@ -1,0 +1,135 @@
+<!--p>home works!</p-->
+<body>
+  <header>
+    <!--img class="app-logo" src="./assets/spotify-logo-white.svg" alt="Spotify Logo" srcset="./assets/spotify-logo-white.svg">
+    <h1 class="main-heading"><a href="/src/index.html" routerLink="home" routerLinkActive="active">spotify</a></h1-->
+    <br><br><br>
+    <nav class="col-navbar">
+        <button class="btn-back"><img [src]="navPrevious" alt="Previous Page"></button>
+        <button class="btn-forward"><img [src]="navNext" alt="Next Page"></button>
+        <!--a><button class="btn-signup" routerLink="/register" routerLinkActive="active">sign up</button></a>
+        <a><button class="btn-login" routerLink="/login" routerLinkActive="active">log in</button></a-->
+    </nav>
+  </header>
+   
+  <section class="col-main">
+    <div>
+        <img id="img" class="img-home" src="../assets/icons/house-solid-white.svg" alt="House Icon"><button class="btn-home"><a id="link1" class="active" href="./home.html">home</a></button>
+        <img class="img-playlist" src="../assets/icons/plus-solid.svg" alt="Playlist Icon"><button class="btn-playlist"><a id="link2" href="">create playlist</a></button>
+    </div>
+  
+    <section class="cards1">
+        <h1 class="heading1"><a class="link1" href="">{{txtHeading1}}</a></h1>
+        <h1 class="heading2"><a class="link2" href="">{{txtSeeAll}}</a></h1>
+        <div class="colcard1 card text-white bg-dark mb-3" style="height: 340px; width: 240px">
+            <img [src]="songImage" class="imgSamp card-img-top" [alt]="txtSampleImg">
+            <div class="card-body bg-dark mb-3">
+              <h5 class="txt1 card-title bg-dark mb-3">{{songName1}}</h5>
+              <hr class="col-bar">
+              <p class="txtpara1 card-text bg-dark mb-3">{{artistName1}}</p>
+              <p class="txtpara2 card-text bg-dark mb-3">{{songDuration1}}</p>
+              <a href="#" class="btn-play1"><img [src]="btnPlay" [alt]="txtPlayIcon"></a>
+            </div>
+        </div>
+  
+        <div class="colcard2 card text-white bg-dark mb-3" style="height: 340px; width: 240px">
+            <img [src]="songImage" class="imgSamp card-img-top" [alt]="txtSampleImg">
+            <div class="card-body bg-dark mb-3">
+                <h5 class="txt1 card-title bg-dark mb-3">{{songName2}}</h5>
+                <hr class="col-bar">
+                <p class="txtpara1 card-text bg-dark mb-3">{{artistName2}}</p>
+                <p class="txtpara2 card-text bg-dark mb-3">{{songDuration2}}</p>
+              <a href="#" class="btn-play2"><img [src]="btnPlay"[alt]="txtPlayIcon"></a>
+            </div>
+        </div>
+  
+        <div class="colcard3 card text-white bg-dark mb-3" style="height: 340px; width: 240px">
+            <img [src]="songImage" class="imgSamp card-img-top" [alt]="txtSampleImg">
+            <div class="card-body bg-dark mb-3">
+                <h5 class="txt1 card-title bg-dark mb-3">{{songName3}}</h5>
+                <hr class="col-bar">
+                <p class="txtpara1 card-text bg-dark mb-3">{{artistName3}}</p>
+                <p class="txtpara2 card-text bg-dark mb-3">{{songDuration3}}</p>
+              <a href="#" class="btn-play3"><img [src]="btnPlay" [alt]="txtPlayIcon"></a>
+            </div>
+        </div>
+  
+        <div class="colcard4 card text-white bg-dark mb-3" style="height: 340px; width: 240px">
+            <img [src]="songImage" class="imgSamp card-img-top" [alt]="txtSampleImg">
+            <div class="card-body bg-dark mb-3">
+                <h5 class="txt1 card-title bg-dark mb-3">{{songName4}}</h5>
+                <hr class="col-bar">
+                <p class="txtpara1 card-text bg-dark mb-3">{{artistName4}}</p>
+                <p class="txtpara2 card-text bg-dark mb-3">{{songDuration4}}</p>
+              <a href="#" class="btn-play4"><img [src]="btnPlay" [alt]="txtPlayIcon"></a>
+            </div>
+        </div>
+  
+        <div class="colcard5 card text-white bg-dark mb-3" style="height: 340px; width: 240px">
+            <img [src]="songImage" class="imgSamp card-img-top" [alt]="txtSampleImg">
+            <div class="card-body bg-dark mb-3">
+                <h5 class="txt1 card-title bg-dark mb-3">{{songName5}}</h5>
+                <hr class="col-bar">
+                <p class="txtpara1 card-text bg-dark mb-3">{{artistName5}}</p>
+                <p class="txtpara2 card-text bg-dark mb-3">{{songDuration5}}</p>
+              <a href="#" class="btn-play5"><img [src]="btnPlay" [alt]="txtPlayIcon"></a>
+            </div>
+        </div>
+    </section>
+  
+    <section class="cards2">
+        <h1 class="heading1"><a class="link1" href="">{{txtHeading2}}</a></h1>
+        <h1 class="heading2"><a class="link2" href="">{{txtSeeAll}}</a></h1>
+        <div class="colcard1 card text-white bg-dark mb-3" style="height: 340px; width: 240px">
+            <img [src]="songImage" class="imgSamp card-img-top" [alt]="txtSampleImg">
+            <div class="card-body bg-dark mb-3">
+              <h5 class="txt1 card-title bg-dark mb-3">{{chartsHeading1}}</h5>
+              <hr class="col-bar">
+              <p class="txtpara card-text bg-dark mb-3">{{chartsDesc1}}</p>
+              <a href="#" class="btn-play8"><img [src]="btnPlay" [alt]="txtPlayIcon"></a>
+            </div>
+        </div>
+  
+        <div class="colcard2 card text-white bg-dark mb-3" style="height: 340px; width: 240px">
+            <img [src]="songImage" class="imgSamp card-img-top" [alt]="txtSampleImg">
+            <div class="card-body bg-dark mb-3">
+              <h5 class="txt1 card-title bg-dark mb-3">{{chartsHeading2}}</h5>
+              <hr class="col-bar">
+              <p class="txtpara card-text bg-dark mb-3">{{chartsDesc2}}</p>
+              <a href="#" class="btn-play8"><img [src]="btnPlay" [alt]="txtPlayIcon"></a>
+            </div>
+        </div>
+  
+        <div class="colcard3 card text-white bg-dark mb-3" style="height: 340px; width: 240px">
+            <img [src]="songImage" class="imgSamp card-img-top" [alt]="txtSampleImg">
+            <div class="card-body bg-dark mb-3">
+              <h5 class="txt1 card-title bg-dark mb-3">{{chartsHeading3}}</h5>
+              <hr class="col-bar">
+              <p class="txtpara card-text bg-dark mb-3">{{chartsDesc3}}</p>
+              <a href="#" class="btn-play8"><img [src]="btnPlay" [alt]="txtPlayIcon"></a>
+            </div>
+        </div>
+  
+        <div class="colcard4 card text-white bg-dark mb-3" style="height: 340px; width: 240px">
+            <img [src]="songImage" class="imgSamp card-img-top" [alt]="txtSampleImg">
+            <div class="card-body bg-dark mb-3">
+              <h5 class="txt1 card-title bg-dark mb-3">{{chartsHeading4}}</h5>
+              <hr class="col-bar">
+              <p class="txtpara card-text bg-dark mb-3">{{chartsDesc4}}</p>
+              <a href="#" class="btn-play8"><img [src]="btnPlay" [alt]="txtPlayIcon"></a>
+            </div>
+        </div>
+  
+        <div class="colcard5 card text-white bg-dark mb-3" style="height: 340px; width: 240px">
+            <img [src]="songImage" class="imgSamp card-img-top" [alt]="txtSampleImg">
+            <div class="card-body bg-dark mb-3">
+              <h5 class="txt1 card-title bg-dark mb-3">{{chartsHeading5}}</h5>
+              <hr class="col-bar">
+              <p class="txtpara card-text bg-dark mb-3">{{chartsDesc5}}</p>
+              <a href="#" class="btn-play8"><img [src]="btnPlay" [alt]="txtPlayIcon"></a>
+            </div>
+        </div>
+        <br>
+    </section>
+  </section>
+</body>

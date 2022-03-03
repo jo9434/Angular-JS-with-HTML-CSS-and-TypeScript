@@ -1,0 +1,393 @@
+/*.app-logo
+{
+    float: left;
+    margin-left: 25px;
+    margin-top: 12px !important;
+    height: 37px;
+    width: 37px;
+    cursor: pointer;
+}*/
+
+.main-heading a
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-back
+{
+    float: left;
+    margin-top: -40px;
+    margin-left: 240px;
+    cursor: not-allowed !important;
+    color: white;
+    border: 0px solid;
+    border-color: none;
+    background-color: rgb(41, 41, 41);
+    height: 25px;
+    width: 25px;
+}
+
+.btn-forward
+{
+    float: left;
+    margin-top: -40px;
+    margin-left: 290px;
+    cursor: not-allowed !important;
+    color: white;
+    border: 0px solid;
+    border-color: none;
+    height: 25px;
+    width: 25px;
+}
+
+/*.btn-signup
+{
+    float: right;
+    font-family: 'Ubuntu Mono';
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 40px;
+    width: 120px;
+    border: 0px solid;
+    border-radius: 20px;
+    margin-top: -50px;
+    margin-right: 180px;
+    color: white;
+    cursor: default;
+}
+
+.btn-login
+{
+    float: right;
+    font-family: 'Ubuntu Mono';
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 40px;
+    width: 120px;
+    border: 0px solid;
+    border-radius: 20px;
+
+    margin-top: -50px;
+    margin-right: 40px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-signup:hover
+{
+    letter-spacing: 0.8px;
+    transition: ease 0.4s;
+}
+
+.btn-login:hover
+{
+    letter-spacing: 0.8px;
+    transition: ease 0.4s;
+    height: 41px;
+    width: 121px;
+}*/
+
+.col-bar
+{
+    height: 0.1px;
+    width: 100%;
+    border-color: white;
+    background-color: white;
+}
+
+.img-home
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 22px;
+    width: 22px;
+    opacity: 60%;
+}
+
+.img-home#img
+{
+    opacity: 100%;
+}
+
+.img-playlist
+{
+    clear: left;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 22px;
+    width: 22px;
+    opacity: 60%;
+}
+
+.btn-home
+{
+    float: left;
+    margin-top: 22px;
+    margin-left: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: 0px;
+}
+
+.btn-playlist
+{
+    float: left;
+    margin-top: 22px;
+    margin-left: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: 0px;
+}
+
+.img-home:hover
+{
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.img-playlist:hover
+{
+    cursor: pointer;
+    opacity: 100%;
+}
+
+#link1, #link2
+{
+    color: gray;
+    text-decoration: none;
+}
+
+#link1.active
+{
+    color: white;
+}
+
+#link1:hover
+{
+    color: white;
+}
+
+#link2:hover
+{
+    color: white;
+}
+
+.cards1, .cards2
+{
+    margin-left: 240px;
+}
+
+.heading1 a.link1
+{
+    font-family: 'Ubuntu Mono';
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+
+.heading2 a.link2
+{
+    float: right;
+    font-family: 'Ubuntu Mono' !important;
+    font-size: 15px;
+    margin-right: 60px;
+    margin-top: -30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.heading2 .link2:hover
+{
+    text-decoration: underline 2px;
+    text-underline-offset: 2px;
+    text-decoration-color: white;
+}
+
+.heading1 .link1:hover
+{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: white;
+}
+
+.txt1
+{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.txtpara1
+{
+    font-size: 14px;
+    margin-top: -6px;
+    text-transform: capitalize;
+}
+
+.txtpara2
+{
+    font-size: 14px;
+    margin-top: -12px;
+}
+
+.txtpara
+{
+    font-size: 14px;
+}
+
+.imgSamp
+{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.btn-play1 img
+{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-top: -168.5px;
+    margin-left: 162px;
+    background: none;
+}
+
+.btn-play1 img:hover
+{
+    height: 42px;
+    width: 42px;
+}
+
+.btn-play2 img
+{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-top: -168.5px;
+    margin-left: 162px;
+    background: none;
+}
+
+.btn-play2 img:hover
+{
+    height: 42px;
+    width: 42px;
+}
+
+.btn-play3 img
+{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-top: -168.5px;
+    margin-left: 161.6px;
+    background: none;
+}
+
+.btn-play3 img:hover
+{
+    height: 42px;
+    width: 42px;
+}
+
+.btn-play4 img
+{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-top: -168.5px;
+    margin-left: 161.6px;
+    background: none;
+}
+
+.btn-play4 img:hover
+{
+    height: 42px;
+    width: 42px;
+}
+
+.btn-play5 img
+{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-top: -168.5px;
+    margin-left: 161.6px;
+    background: none;
+}
+
+.btn-play5 img:hover
+{
+    height: 42px;
+    width: 42px;
+}
+
+.btn-play6 img
+{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-top: -174.5px;
+    margin-left: 161.6px;
+    background: none;
+}
+
+.btn-play6 img:hover
+{
+    height: 42px;
+    width: 42px;
+}
+
+.btn-play7 img
+{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-top: -151.5px;
+    margin-left: 161.6px;
+    background: none;
+}
+
+.btn-play7 img:hover
+{
+    height: 42px;
+    width: 42px;
+}
+
+.btn-play8 img
+{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-top: -170px;
+    margin-left: 161.70px;
+    background: none;
+}
+
+.btn-play8 img:hover
+{
+    height: 42px;
+    width: 42px;
+}
+
+.colcard1, .colcard2, .colcard3 , .colcard4
+{
+    float: left;
+    color: white;
+}
+
+.colcard2, .colcard3 , .colcard4
+{
+    margin-left: 20px;
+    
+}

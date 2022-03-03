@@ -1,0 +1,18 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+<!-- Ubuntu Mono -->
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+<body>
+  <section class="nav-main">
+    <img class="img1" [src]="appLogo" alt="Spotify Logo"><h1 class="txtLogo">{{appName}}</h1>
+    <a class="link1" [routerLink]="pathHome" [routerLinkActive]="navLinkActive"><img class="navHome" [src]="navHome" [alt]="txtHome" [srcset]="navHome"></a>
+    <a class="link2" [routerLink]="pathLogin" [routerLinkActive]="navLinkActive"><img class="navLogin" [src]="navLogin" [alt]="txtLogin"></a>
+    <a class="link3" [routerLink]="pathRegister" [routerLinkActive]="navLinkActive"><img class="navReg" [src]="navRegister" [alt]="txtReg"></a>
+    <a class="link4" [routerLink]="pathMain" [routerLinkActive]="navLinkActive"><img class="navBackMain" [src]="navBackToMain" [alt]="txtBackMain"></a>
+  </section>
+</body>
+<hr class="col-bar">
+<router-outlet></router-outlet>
+<!-- Router Views are Displayed Here -->

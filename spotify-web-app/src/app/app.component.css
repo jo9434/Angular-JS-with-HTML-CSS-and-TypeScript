@@ -1,0 +1,64 @@
+.img1
+{
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.txtLogo
+{
+    color: white;
+    font-family: 'Ubuntu Mono';
+    font-size: 44px;
+    margin-left: 168px;
+    margin-top: -48px;
+}
+
+.link1, .link2, .link3, .link4
+{
+    float: left;
+    margin-top: -43px;
+    text-decoration: none;
+    color: white;
+}
+
+.link1
+{
+    margin-left: 440px;
+}
+
+.link2
+{
+    margin-left: 520px;
+}
+
+.link3
+{
+    margin-left: 600px;
+}
+
+.link4
+{
+    margin-left: 680px;
+}
+
+.navHome, .navLogin, .navReg, .navBackMain
+{
+    height: 25px;
+    width: 25px;
+}
+
+.navHome:hover, .navLogin:hover, .navReg:hover, .navBackMain:hover
+{
+    height: 28px;
+    width: 28px;
+}
+
+.col-bar
+{
+    border: 2px solid;
+    height: 5.8px;
+    width: 100%;
+    background-color: white;
+}

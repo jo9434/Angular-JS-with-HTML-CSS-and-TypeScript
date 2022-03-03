@@ -1,0 +1,170 @@
+/* You can add global styles to this file, and also import other style files
+
+* {
+    font-family: 'Ubuntu Mono';
+    background: white;
+    color: rgb(41, 41, 41);
+}
+
+*/
+
+body
+{
+    font-family: 'Ubuntu Mono';
+}
+
+.col-section
+{
+    margin-left: 150px;
+    color: white;
+}
+
+.col-text-1
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.col-text-2
+{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: -31.5px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.registerform
+{
+    border: 2px solid dodgerblue;
+    width: 460px;
+    height: 430px;
+    margin-left: 450px;
+    margin-top: -8px;
+    box-shadow: darkorange 0px 10px 8px;
+}
+
+.col-username, .col-password
+{
+    margin-left: 100px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.txt-box-1, .txt-box-2
+{
+    margin-left: 100px;
+    margin-top: 5px;
+    border: 0.5px solid dodgerblue;
+    border-radius: 6px;
+    width: 260px;
+    height: 20px;
+}
+
+.btn-submit
+{
+    margin-left: 100px;
+    border: 1px solid darkorange;
+    background-color: darkorange;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 266px;
+    height: 30px;
+}
+
+.btn-submit:hover, .btn-login:hover
+{
+    background-color: mediumpurple;
+    color: white;
+}
+
+.return-Home:hover
+{
+    height: 40px;
+    width: 45px;
+}
+
+.img-defn
+{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.hide
+{
+    display: none;
+    text-transform: capitalize;
+}
+
+#col-fb:hover+p
+{
+    display: block;
+    padding-right: 60px;
+    font-size: '20px';
+}
+
+#col-insta:hover+p
+{
+    display: block;
+    margin-right: 160px;
+    font-size: '20px';
+}
+
+#col-tweet:hover+p
+{
+    display: block;
+    margin-right: 160px;
+    font-size: '20px';
+}
+
+#col-yt:hover+p
+{
+    display: block;
+    margin-left: 160px;
+    font-size: '20px';
+}
+
+.btn-checkbox
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 95px;
+    margin-right: 45px;
+}
+
+.btn-login
+{
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+    border: 1px solid darkorange;
+    background-color: darkorange;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 266px;
+    height: 30px;
+}
+
+.btn-login a
+{
+    text-decoration: none;
+    background-color: darkorange;
+}
+
+.return-Home
+{
+    float: right;
+    margin-right: 140px;
+    height: 40px;
+    width: 40px;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+}

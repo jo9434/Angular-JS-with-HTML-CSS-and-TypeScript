@@ -1,0 +1,14 @@
+<body>
+    <p class="errorMsg"><b class="blue">{{sorryMsg}}</b><img class="imgSorryEmoji" [src]="imgSorryEmoji" alt=""><br><br>{{positiveMsg1}}<br>{{positiveMsg2}}<img class="manDancingGif" src="../assets/icons/man-dancing.gif" alt="Man Dancing"></p><p class="errorMsg">{{regardsMsg}}<br>&nbsp;-{{teamSpotify}}</p>
+    <br>
+    <a class="returnMainSection" [routerLink]="pathMain" [routerLinkActive]="navLinkActive">{{returnMain}}</a>
+    <br><br>
+    <audio id="myAudio" class="audioPlayer" controls autoplay loop="loop">
+        <source [src]="songname" type="audio/mp3">
+    </audio>
+    <script type="text/javascript">
+        window.onload=function(){
+          document.getElementById("myAudio").play();
+        }
+    </script>
+</body>

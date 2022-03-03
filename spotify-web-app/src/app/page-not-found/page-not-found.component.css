@@ -1,0 +1,53 @@
+body
+{
+    font-family: 'Ubuntu Mono';
+}
+
+.errorMsg
+{
+    color: white;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.blue
+{
+    color: dodgerblue;
+}
+
+.imgSorryEmoji
+{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+.manDancingGif
+{
+    height: 45px;
+    width: 45px;
+}
+
+.returnMainSection
+{
+    margin-left: 140px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white
+}
+
+.returnMainSection:hover
+{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: dodgerblue;
+}
+
+.audioPlayer
+{
+    margin-left: 120px;
+    margin-top: 40px;
+}
