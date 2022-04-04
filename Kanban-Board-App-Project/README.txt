@@ -1,0 +1,2 @@
+# Folder name: kanban --> is for AngularJS with scss with components - Login, Register, Dashboard(Home after Login), Privacy-Policy, Page-Not-Found (Wildcard).
+# Folder name: KanbanApp --> is for Backend Microservice.

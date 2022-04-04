@@ -1,0 +1,188 @@
+MongoDB Database Created, called Projects.projects
+
+// 1)
+
+{  
+	"_id": {    
+			"$oid": "6249db137eaf1aebd7c51f2e"  
+		},  
+		"$_id": {    
+			"$colid": "854",    
+			"$colname": "upcoming",    
+				"$_id": {      
+					"$colid": "854",      
+					"$projectId": "9504",      
+					"$projectname": "Perform Search Engine Optimization for Website"    
+				}  
+		}
+}
+
+// 2)
+
+{  
+	"_id": {    
+			"$oid": "6249db477eaf1aebd7c51f31"  
+		},  
+		"$_id": {    
+			"$colid": "850",    
+			"$colname": "upcoming",    
+				"$_id": {      
+					"$colid": "850",      
+					"$projectId": "9500",      
+					"$projectname": "Design Website to suite requirements"    
+				}  
+		}
+}
+
+// 3)
+
+{  
+	"_id": {    
+			"$oid": "6249db947eaf1aebd7c51f34"  
+		},  
+		"$_id": {    
+			"$colid": "857",    
+			"$colname": "upcoming",    
+				"$_id": {      
+					"$colid": "857",      
+					"$projectId": "9506",      
+					"$projectname": "Design Application for Mobile Devices"    
+				}  
+		}
+}
+
+// 4)
+
+{  
+	"_id": {    
+			"$oid": "6249dbc87eaf1aebd7c51f36"  
+		},  
+		"$_id": {    
+			"$colid": "859",    
+			"$colname": "upcoming",    
+				"$_id": {      
+					"$colid": "859",      
+					"$projectId": "9510",      
+					"$projectname": "Redesign the logo to improve brand image"    
+				}  
+		}
+}
+
+// 5)
+
+{  
+	"_id": {    
+			"$oid": "6249dc267eaf1aebd7c51f39"  
+		},  
+		"$_id": {    
+			"$colid": "862",    
+			"$colname": "in-progress",    
+				"$_id": {      
+					"$colid": "862",      
+					"$projectId": "7403",      
+					"$projectname": "Improve Website to expand business"    
+				}  
+		}
+}
+
+// 6)
+
+{  
+	"_id": {    
+			"$oid": "6249dcb97eaf1aebd7c51f3c"  
+		},  
+		"$_id": {    
+			"$colid": "867",    
+			"$colname": "in-progress",    
+				"$_id": {      
+					"$colid": "867",      
+					"$projectId": "7406",      
+					"$projectname": "Create a better UI Design"    
+				}  
+		}
+}
+
+// 7)
+
+{  
+	"_id": {    
+			"$oid": "6249dce97eaf1aebd7c51f3e"  
+		},  
+		"$_id": {    
+			"$colid": "869",    
+			"$colname": "in-progress",    
+				"$_id": {      
+					"$colid": "869",      
+					"$projectId": "7401",      
+					"$projectname": "Make Website to be mobile responsive"    
+				}  
+		}
+}
+
+// 8)
+
+{  
+	"_id": {    
+			"$oid": "6249dd457eaf1aebd7c51f40"  
+		},  
+		"$_id": {    
+			"$colid": "563",    
+			"$colname": "completed",    
+				"$_id": {      
+					"$colid": "563",      
+					"$projectId": "8672",      
+					"$projectname": "Design Company App Logo"    
+				}  
+		}
+}
+
+// 9)
+
+{  
+	"_id": {    
+			"$oid": "6249dd697eaf1aebd7c51f42"  
+		},  
+		"$_id": {    
+			"$colid": "567",    
+			"$colname": "completed",    
+				"$_id": {      
+					"$colid": "567",      
+					"$projectId": "8679",      
+					"$projectname": "Make new website"    
+				}  
+		}
+}
+
+// 10)
+
+{  
+	"_id": {    
+			"$oid": "6249de0c7eaf1aebd7c51f46"  
+		},  
+		"$_id": {    
+			"$colid": "261",    
+			"$colname": "archived",    
+				"$_id": {      
+					"$colid": "261",      
+					"$projectId": "3785",      
+					"$projectname": "Upgrade the version of the Application"    
+				}  
+		}
+}
+
+// 11)
+
+{  
+	"_id": {    
+			"$oid": "6249de407eaf1aebd7c51f49"  
+		},  
+		"$_id": {    
+			"$colid": "267",    
+			"$colname": "archived",    
+				"$_id": {      
+					"$colid": "267",      
+					"$projectId": "3789",      
+					"$projectname": "Redesign the backend service of website to accomodate multiple users from different countries"    
+				}  
+		}
+}
