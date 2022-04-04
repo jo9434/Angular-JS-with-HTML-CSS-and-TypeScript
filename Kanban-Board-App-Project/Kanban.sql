@@ -1,1 +1,0 @@
-create database kanban_users;
