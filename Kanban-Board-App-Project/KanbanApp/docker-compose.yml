@@ -1,0 +1,41 @@
+version: '3.3'
+services:
+  mysqlservice:
+    image: mysql:5.5
+    ports:
+      - '3306:3306'
+    container_name: mysql-container
+    network_mode: host
+    hostname: localhost
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USERNAME: root
+      MYSQL_PASSWORD: joelpc6398#
+
+  userauthenticationservice:
+    image: userauthenticationimage
+    build: UserAuthenticationService/
+    restart: always
+    hostname: localhost
+    network_mode: host
+    ports:
+      - '8082:8082'
+    depends_on:
+      - mysqlservice
+
+  userprojectsservice:
+    image: userprojectsimage
+    build: UserProjectsService/
+    restart: always
+    hostname: localhost
+    network_mode: host
+    depends_on:
+      - mongo
+    ports:
+      - '8085:8085'
+  mongo:
+    image: mongo:3.2-jessie
+    ports:
+      - '27017:27017'
+    container_name: mongo
+    network_mode: host
