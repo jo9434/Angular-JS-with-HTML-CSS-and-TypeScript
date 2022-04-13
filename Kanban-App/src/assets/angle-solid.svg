@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 384 512"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="angle-solid.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.6171875"
+     inkscape:cx="192.61836"
+     inkscape:cy="157.37198"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+  <path
+     d="m 192,226 c -8.188,0 -16.38,-3.125 -22.62,-9.375 l -160,-160 c -12.5,-12.5 -12.5,-32.75 0,-45.25 12.5,-12.5 32.75,-12.5 45.25,0 L 192,148.8 329.4,11.4 c 12.5,-12.5 32.75,-12.5 45.25,0 12.5,12.5 12.5,32.75 0,45.25 l -160,160 C 208.4,222.9 200.2,226 192,226 Z"
+     id="path2"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     d="m 192.91409,285.98888 c 8.18799,-0.007 16.38272,3.11069 22.62818,9.35523 l 160.13975,159.86012 c 12.51092,12.48907 12.52862,32.73907 0.0395,45.24998 -12.48907,12.51093 -32.73907,12.52862 -45.24998,0.0396 L 192.98154,363.18885 55.70167,500.70887 C 43.212595,513.21978 22.962602,513.23748 10.451684,500.74841 -2.0592341,488.25934 -2.07693,468.00934 10.412142,455.49843 L 170.27226,295.35867 c 6.24454,-6.25546 14.44183,-9.36262 22.64183,-9.36979 z"
+     id="path2-8"
+     style="fill:#000000;fill-opacity:1" />
+</svg>
