@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani' !important;
+    overflow-y: hidden;
+    background-color: lightblue;
+}
+
+.navgroup
+{
+    display: block;
+    border: 0px solid;
+    height: 50px;
+}
+
+@keyframes txtcolorchanger {
+    from {background-color: initial;}
+    to {background-color: coral;}
+}
+
+.kanban-app
+{
+    display: none;
+    margin-left: 6.4vh;
+    margin-top: -4vh;
+    height: 25px !important;
+    width: 80px !important;
+    padding-left: 2px;
+    transition: display 0.4ms !important;
+    transition-timing-function: ease !important;
+    transition-duration: 20ms !important;
+    animation-name: txtcolorchanger !important;
+    animation-duration: 4s !important;
+    animation-iteration-count: infinite !important;
+}
+
+.txt-appname
+{
+    font-size: 25px;
+    margin-top: -1px !important;
+}
+
+.kanbanlogo:hover + .kanban-app {display: flex;}
