@@ -1,0 +1,8 @@
+<!--p>page-not-found works!</p-->
+<section class="errmsgcard card bg-warning">
+    <!--p class="text-danger" [style]="errorstyle1">error {{error404}}&nbsp;{{errorDesc}}</p-->
+    <p class="errorMsg"><b class="blue">{{sorryMsg}}</b><img class="imgSorryEmoji" [src]="imgSorryEmoji" alt="Sorry Emoji"><hr [style]="hrstyle1">{{salutation}}<br><br>{{positiveMsg1}}<br>{{positiveMsg2}}</p><p class="errorMsg2">{{regardsMsg}}<br>&nbsp;-{{teamMoviesApp}}</p>
+    <br>
+    <a class="returnMainSection" [routerLink]="pathMain" [routerLinkActive]="navLinkActive">{{returnLogin}}</a>
+    <br><br>
+</section>

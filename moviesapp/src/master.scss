@@ -1,0 +1,14 @@
+@keyframes compload {
+    from { opacity: 0; transform: scale(0,0); }
+    to { opacity: 1; }
+}
+
+@keyframes iconload {
+    from { opacity: 0; margin-top: -40vh; }
+    to { opacity: 1; }
+}
+
+@keyframes slideleft {
+    from { opacity: 0; margin-top: -40vh; }
+    to { opacity: 1; }
+}

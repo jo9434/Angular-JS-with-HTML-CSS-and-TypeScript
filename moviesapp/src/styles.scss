@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+
+// for animations or reusable code which are common and can be reused in the entire angularjs app
+@import url(./master.scss);
+
+:root
+{
+  --font-dosis: "Dosis";
+  --font-rajdhani: "Rajdhani";
+  --color-black: rgb(75, 72, 72);
+  --color-white: #fff;
+  --color-dgr-blue: dodgerblue;
+  --color-red: rgb(240, 82, 82);
+  --color-orange: rgb(255, 177, 82);
+}
+
+body { font-family: var(--font-dosis); overflow-x: hidden }
+
+.main { display: block; position: relative; }
+
+.navbar
+{
+  z-index: 1;
+  height: 8vh;
+  width: 213.1vh;
+  background-color: var(--color-black);
+  margin-top: -1.27vh;
+  margin-left: -0.2vh;
+  padding-left: 1.6vh;
+  color: var(--color-white);
+  animation: compload 2s ease-in-out;
+}
+
+.navbar .heading { margin-left: 2vh; padding-top: 0.3vh; }
+
+.heading:hover { color: var(--color-red); }
+
+.navroutes button
+{
+  float: left;
+  margin-top: -6.8vh;
+  height: 4.2vh;
+  width: 6vh;
+  border: none;
+  background-color: var(--color-red);
+  border-radius: 5vh;
+  color: var(--color-white);
+  animation: iconload 3s ease-in-out;
+}
+
+.icon1 { margin-left: 170vh; }
+
+.icon2 { margin-left: 180vh; }
+
+.icon1:hover, .icon2:hover { background-color: var(--color-dgr-blue); }
+
+.icon1:active, .icon2:active { background-color: var(--color-orange); }
+
+/*@keyframes iconload2 {
+  from { opacity: -10; margin-left: -40vh; }
+  to { opacity: 1; }
+}*/
